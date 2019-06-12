@@ -1,0 +1,27 @@
+.section {
+  background-color: #f6f7ff;
+  color: #2c2e30;
+}
+.section .heading {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #2c2e30;
+}
+.section .my-cards .my-card div {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #54565a;
+}
+.section .my-cards .my-card div:first-child {
+  height: 64px;
+  margin-bottom: 31px;
+}
+

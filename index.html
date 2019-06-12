@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pro vision lab 1</title>
+
+    <link rel="stylesheet" href="./libs/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/icomoon/style.css">
+    <link rel="stylesheet" href="./libs/revelator/revelator.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/expertise.css">
+    <link rel="stylesheet" href="css/teams.css">
+    <link rel="stylesheet" href="css/section-white.css">
+    <link rel="stylesheet" href="css/computing.css">
+    <link rel="stylesheet" href="css/sections-violet.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/left-menu.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--progress-->
+<div id="progress"></div>
+<!--end progress-->
+<div class="layer shows container-fluid position-fixed" aria-hidden="true">
+    <div class="row">
+        <div class="material-menu">
+            <div class="col-12 col-sm-7 col-md-6 left-menu shows d-flex flex-column justify-content-between position-fixed py-4"
+                 aria-hidden="true">
+                <div class="row align-items-start">
+                    <div class="col-2 closer align-self-start text-center order-2">╳</div>
+                    <div class="col-10 order-1">
+                        <ul class="navbar-nav links mt-3">
+                            <li class="nav-item">
+                                <a class="nav-link p-0 py-2 " role="link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 py-2 " role="link" href="#">Who we are</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 py-2 " role="link" href="#">Expertise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 py-2 " role="link" href="#">Case Studies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 py-2 " role="link" href="#">Whitepapers</a>
+                            </li>
+                            <li class="nav-item d-lg-none">
+                                <a class="nav-link p-0 py-2 " role="link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row flex-column justify-content-end py-5">
+                    <div class="col-10 col-md-8 col-lg-6">
+                        <div class="row text-left">
+                            <div class="col-12 soc-title py-3">Find us in social networks</div>
+                        </div>
+                        <div class="row soc">
+                            <div class="col-3  content-align-center">
+                                <a class="flex-column d-flex justify-content-center align-items-center" href="#"
+                                   role="link"><i class="icon-facebook"></i></a>
+                            </div>
+                            <div class="col-3  content-align-center">
+                                <a class="flex-column d-flex justify-content-center align-items-center" href="#"
+                                   role="link"><i class="icon-twitter"></i></a>
+                            </div>
+                            <div class="col-3  content-align-center">
+                                <a class="flex-column d-flex justify-content-center align-items-center" href="#"
+                                   role="link"><i class="icon-youtube"></i></a>
+                            </div>
+                            <div class="col-3 content-align-center">
+                                <a class="flex-column d-flex justify-content-center align-items-center" href="#"
+                                   role="link"><i class="icon-linkedin2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid header" id="home">
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-xl navbar-light top-nav d-flex align-items-center">
+                <a class="navbar-brand logo" role="banner" href="#"><img
+                        src="./images/logo1.svg" role="link"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" role="button"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-lg-7 col-xl-6 offset-lg-0  offset-xl-1 justify-content-end"
+                     id="navbarNav" aria-hidden="false">
+                    <ul class="navbar-nav links">
+                        <li class="nav-item text-center">
+                            <a class="nav-link" role="link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" role="link" href="#">Who we are</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" role="link" href="#">Expertise</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" role="link" href="#">Case Studies</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link" role="link" href="#">Whitepapers</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-outline-success my-2 my-sm-0 ml-5 ml-lg-2 nav-btn" role="button" type="submit">
+                    Contact Us
+                </button>
+            </nav>
+        </div>
+        <div class="container expertise-wrapper py-5">
+            <div class="row">
+                <div class="col-10 col-sm-10 col-md-8 col-lg-5 pb-3 pt-1 pt-sm-2 pt-md-5 m-auto">
+                    <div class="container-left">
+                        <h1>Expertise</h1>
+                        <p class="quote">
+                            Experienced in computer vision algorithm implementation and optimization
+                        </p>
+                        <a href="#" role="link" class="d-flex flex-column justify-content-center text-center">Hire
+                            Us</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 d-none d-md-block container-right">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section py-3 md-py-5">
+    <div class="row justify-content-center py-5">
+        <div class=" col-xl-9 col-lg-10 col-md-11 col-12">
+            <div class="row justify-content-center">
+                <div class="col-12 py-3 py-sm-5 text-center"><p class="heading pb-3 pb-lg-5 text-center">Our technical
+                    team has:</p></div>
+            </div>
+            <div class="row my-cards justify-content-center">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay3  my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/eye.svg" alt="eye">
+                    </div>
+                    <div class="text text-justify">
+                        Extensive experience in object detection, tracking, classification and recognition with a
+                        real-time
+                        focus
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay4  my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/phone.svg" alt="phone">
+                    </div>
+                    <div class="text text-justify">Expert skills in Android/iOS
+                        application programming
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay5  my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/diagramm.svg" alt="diagramm">
+                    </div>
+                    <div class="text text-justify">In-depth knowledge of the concepts of object classification and
+                        detection
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section section-white py-3 md-py-5">
+    <div class="row justify-content-center py-5">
+        <div class=" col-xl-9 col-lg-10 col-md-11 col-12">
+            <div class="row">
+                <div class="col-12 py-3 py-sm-5"><p class="heading pb-3 pb-lg-5 text-center">We take pride in
+                    development of the
+                    following:</p></div>
+            </div>
+            <div class="row my-cards flex-wrap justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay2 my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/router.svg" alt="router">
+                    </div>
+                    <div class="text text-justify">
+                        Innovative video analysis software for IP cameras,
+                        video servers and PC-based platforms
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay3 my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/photo.svg" alt="photo">
+                    </div>
+                    <div class="text text-center short">
+                        Cutting-edge video
+                        analysis applications
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay4 my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/java.svg" alt="java">
+                    </div>
+                    <div class="text text-center short">Computer vision
+                        applications in Java
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10 py-5 py-sm-3 py-md-3 revealator-slideup revealator-once revealator-delay5 my-card">
+                    <div role="banner" class="text-center">
+                        <img src="./images/dotted.svg" alt="dotted">
+                    </div>
+                    <div class="text text-justify">Complex software for automatic
+                        face recognition and
+                        detection within real-time
+                        video stream
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section section-computing py-3 md-py-5">
+    <div class="row justify-content-center py-5">
+        <div class=" col-xl-9 col-lg-10 col-md-11 col-12 justify-content-center">
+            <div class="row justify-content-center txt-md-left mb-4 revealator-slideup revealator-once ">
+                <div class="col-12"><p class="heading text-justify">Neural Net Computing</p></div>
+                <div class="col-10 col-sm-12 col-md-7 col-xl-8">
+                    <div class=" txt-container text-justify revealator-slideup revealator-once revealator-delay1">
+                        <div>
+                            <p>We have outstanding technologists on our team who are driven, energetic, and passionate
+                                about
+                                Machine Learning, Computer Vision and, more generally, we are very interested in
+                                Artificial
+                                Intelligence. </p>
+                            <p>We have worked on unsupervised learning algorithms using probabilistic graphical models
+                                and can
+                                apply these models to a variety of applications, such as visual object recognition,
+                                speech
+                                recognition and text document retrieval.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 col-md-5 col-12 d-none d-md-block">
+                    <div class="flower revealator-slideup revealator-once revealator-delay2 "></div>
+                </div>
+                <div class="col-lg-12 col-10 col-md-12 col-sm-12 paragraph revealator-slideup revealator-once revealator-delay3">
+                    <p>
+                        Having in-depth knowledge of neural network architecture, we can use it for image
+                        processing,
+                        character recognition and pattern recognition. We understand neural networks well, and use
+                        them to
+                        build face detection systems where we apply neural network algorithms and use them for human
+                        action
+                        and emotion recognition. Our technical experts managed to achieve high accuracy in
+                        recognition of
+                        objects and human poses from multiple-views, based on similar feature patterns. We can also
+                        implement neural networks-based text detection systems for handwritten digits and signatures
+                        recognition
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section section-violet py-3 md-py-5">
+    <div class="position-absolute dotted-square" role="banner"><img src="./images/dotted-square.svg" alt="square">
+    </div>
+    <div class="position-absolute right-line d-md-block d-sm-none d-none" role="banner"><img
+            src="./images/right-line.svg" alt="line"></div>
+    <div class="row py-5">
+        <div class="col-12 relative-container">
+            <div class="container ">
+                <div class="row">
+                    <div class="position-absolute left-line" role="banner"><img src="./images/left-line.svg" alt="line">
+                    </div>
+                    <div class="position-absolute rectangle d-none d-sm-block" role="banner"><img
+                            src="./images/top-rect.svg" alt="rect">
+                    </div>
+                    <div class="position-absolute oval d-md-block d-sm-none d-none" role="banner"><img
+                            src="./images/oval.svg" alt="oval"></div>
+                    <div class="position-absolute small-square d-none d-sm-block"></div>
+                    <div class="col-lg-12"><p
+                            class="heading revealator-slideup revealator-once revealator-delay3 text-center"><b>Looking
+                        for Deep Learning technology</b><br><b>for your business?</b>
+                    </p></div>
+                </div>
+                <div class="row my-cards">
+                    <div class="col-lg-12">
+                        <a class="contact  d-flex flex-column justify-content-center revealator-slideup revealator-once revealator-delay4"
+                           role="link">contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid section section-white py-3 md-py-5 footer">
+    <div class="row justify-content-center py-5 px-3 pl-2 pl-sm-0">
+        <div class="col-xl-9 col-lg-10 col-md-11 col-12 justify-content-center">
+            <div class="row pl-1 pl-sm-0 justify-content-center txt-md-left mb-4 logo-contact revealator-slideup revealator-once">
+                <!--Container Logo and Contacts-->
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-6  d-flex justify-content-sm-around">
+                    <!--Logo-->
+                    <div class="w-25 w-sm-50 logo-wrap" style="margin-top: -15px;" role="banner">
+                        <a href="#" class="text-center text-sm-right d-block w-100 h-100" style="height: 50px;">
+                            <img
+                                    src="./images/logo-mini.svg"
+                                    alt="logo"
+                                    class="mr-sm-3"
+                                    role="link">
+                        </a>
+                    </div>
+                    <!--Contacts-->
+                    <div class=" mb-5 ml-2 ml-sm-0 mb-sm-0 w-sm-50 d-flex flex-column align-items-start company">
+                        <p class="title-list">Company</p>
+                        <ul class="p-0">
+                            <li class=" d-block py-2"><a class="link" href="#" role="link">Who we are</a></li>
+                            <li class=" d-block py-2"><a class="link" href="#" role="link">Expertise</a></li>
+                            <li class=" d-block py-2"><a class="link" href="#" role="link">Case Studies</a></li>
+                            <li class=" d-block py-2"><a class="link" href="#" role="link">WhitePapers</a></li>
+                            <li class=" d-block py-2"><a class="link" href="#" role="link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Container Address and Email-->
+                <div
+                        class=" col-12 col-sm-6 col-lg-8 col-xl-6  d-flex justify-content-around justify-content-sm-start  flex-column flex-lg-row">
+                    <!--Address-->
+                    <div
+                            class="w-50 ml-2 ml-sm-0 mb-5 mb-sm-0 align-self-center align-self-sm-start d-flex flex-column address-wrap">
+                        <p class="text-left title-list">Address</p>
+                        <ul class="p-0">
+                            <li class="text-left d-block py-0 py-sm-2">ProvisionLab LLC.</li>
+                            <li class="text-left d-block py-0 py-sm-2">9, Sklyarenko Str., Kyiv, 04073 Ukraine.</li>
+                        </ul>
+                    </div>
+                    <!--Email-->
+                    <div class="d-flex email-wrap">
+                        <div class="w-25 mr-sm-4 mr-lg-0 mr-xl-4 text-center text-sm-left email-ico" role="banner"><img
+                                src="images/mail.svg"
+                                alt="mail"></div>
+                        <div class="flex-column ">
+                            <p class="title-list mb-0">Send us an email</p>
+                            <p><a class="link" href="#">contact@provisionlab.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./libs/jquery.js"></script>
+<script src="./libs/bootstrap-4/js/bootstrap.min.js"></script>
+<script src="./libs/revelator/revelator.min.js"></script>
+<script src="./JS/index.js"></script>
+<script src="./JS/scroll.js"></script>
+<script src="./JS/navbar.js"></script>
+</body>
+</html>

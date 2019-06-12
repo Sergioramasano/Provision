@@ -1,0 +1,68 @@
+.layer {
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 80;
+    display: none;
+    opacity: 1;
+    height: 100vh;
+}
+
+.left-menu {
+    height: 100vh;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    position: fixed;
+    left: -100%;
+    z-index: 200;
+    background-color: #483e72;
+}
+
+.soc-title {
+    font-size: 18px;
+}
+
+.left-menu .soc a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+.left-menu .soc a:first-child {
+    margin-left: 0;
+    text-align: center;
+}
+
+.left-menu .soc a i {
+    color: #483e72;
+    font-size: 18px;
+}
+
+.left-menu .soc a:hover {
+    text-decoration: none;
+}
+
+.left-menu ul li a {
+    color: white;
+}
+
+.left-menu .closer {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.material-menu {
+    background-color: #483e72;
+}
+@media screen and (max-height: 591px){
+    .left-menu{
+        overflow-y: scroll;
+    }
+}
+

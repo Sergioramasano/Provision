@@ -1,0 +1,132 @@
+.section-violet {
+  background-color: #483e72;
+  position: relative;
+  overflow: hidden;
+}
+.section-violet .dotted-square {
+  bottom: 5px;
+  left: 32%;
+}
+.section-violet .right-line {
+  right: 0;
+  bottom: 0;
+}
+.section-violet .heading {
+  color: #fff;
+  margin: auto;
+  margin-bottom:20px;
+  max-width: 573px;
+}
+.section-violet .relative-container {
+  position: relative;
+}
+.section-violet .relative-container .left-line {
+  top: 16%;
+  width: 227.6px;
+  height: 125.4px;
+}
+@media screen and (max-width: 768px) {
+  .section-violet .relative-container .left-line{
+    width: 146px;
+    height: 46px;
+    left: 60%;
+    margin-left: -150px;
+    top: 25%;
+  }
+  .section-violet .dotted-square  {
+    bottom: 4px;
+    left: 78%;
+  }
+}
+.section-violet .relative-container .small-square {
+  width: 32px;
+  height: 32px;
+  transform: rotate(15deg);
+  opacity: 0.12;
+  border: solid 5px #fff;
+  left: 40%;
+  top: 1%;
+}
+.section-violet .relative-container .rectangle {
+  left: 40.5%;
+  top: -244px;
+}
+.section-violet .relative-container .oval {
+  right: 13%;
+  bottom: 11%;
+}
+.section-violet .dotted-square {
+  bottom: -23px;
+  left: 65%;
+}
+.section-violet .relative-container .contact {
+  width: 180px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #483e72;
+  text-transform: uppercase;
+  margin: auto;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .section-violet .relative-container .contact {
+    margin-top: 20px;
+    width: 180px;
+    height: 55px;
+    margin-bottom: 20px;
+  }
+  .section-violet .heading{
+    max-width: 280px;
+    line-height: 1.55;
+    font-weight: 700;
+    font-size: 28px!important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-violet .relative-container .contact{
+    width: 60%;
+    height: 46px;
+  }
+}
+.section-violet .relative-container .contact:hover {
+  background-color: #6bb725;
+  border: solid 2px #6bb725;
+  color: #fff;
+  transition:all .1s ease;
+}
+.section-violet .relative-container .contact:hover .revealator-delay5{
+  transition-delay: 0ms !important;
+}
+/*Thablet*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .section-violet .relative-container .rectangle{
+    right: -44%;
+  }
+  .section-violet .relative-container .small-square {
+    left: 66%;
+    top: 5%;
+}
+  .section-violet .relative-container .left-line {
+    top: 42%;
+    left: 33%;
+  }
+  .section-violet .dotted-square {
+    bottom: -20px;
+    left: 40.5%;
+  }
+  .section-violet .right-line {
+    display: none;
+  }
+  .section-violet .relative-container .oval{
+    display: none;
+  }
+
+}

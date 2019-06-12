@@ -1,0 +1,14 @@
+.section-white {
+  background-color: #ffffff;
+}
+.section-white .my-cards .my-card div:first-child {
+  margin-bottom: 26px;
+  height: 112px;
+}
+  .my-card:last-child{
+    margin-bottom: 0!important;
+  }
+  @media screen and (max-width: 576px){
+  .short{
+    text-align: center!important;
+  }}

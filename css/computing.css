@@ -1,0 +1,47 @@
+@media screen and (max-width: 575px) {
+  .section-computing .heading {
+    text-align: center !important;
+  }
+}
+.section-computing .txt-container p {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #54565a;
+}
+.section-computing .txt-container p:first-child {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.55;
+}
+.section-computing .flower {
+  background: url("../images/flower.svg") no-repeat top center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+/*@media screen and (max-width: 991px) {*/
+  /*.section-computing .flower {*/
+    /*margin: auto;*/
+  /*}*/
+/*}*/
+/*@media screen and (max-width: 576px) {*/
+  /*.section-computing .flower {*/
+    /*width: 65vw;*/
+    /*height: 65vw;*/
+  /*}*/
+/*}*/
+.section-computing .paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #54565a;
+  text-align: justify;
+}
