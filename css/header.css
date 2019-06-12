@@ -9,7 +9,7 @@
 }
 .top-nav {
     padding-top: 25px;
-    padding-left: 40px;
+    padding-left: 0;
 }
 @media screen and (max-width: 400px) {
     .header .logo {
@@ -93,3 +93,6 @@
     border: none;
 }
 
+.nav-link{
+    padding:.5rem 0!important;
+}

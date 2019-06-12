@@ -1,3 +1,8 @@
+.company li{
+    display: block;
+    padding-bottom: .5rem!important;
+    padding-top: .5rem!important;
+}
 .link, p, li {
     color: #54565a;
 }
@@ -16,7 +21,9 @@
     letter-spacing: normal;
     color: #2c2e30;
 }
-
+.logo-wrap{
+    margin-top: -15px;
+}
 @media screen and (min-width: 576px) {
     .logo-wrap, .company, .email-wrap {
         width: 50% !important;
