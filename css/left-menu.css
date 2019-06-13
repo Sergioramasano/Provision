@@ -1,5 +1,5 @@
 .layer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0,0,0,0);
     top: 0;
     left: 0;
     right: 0;
@@ -9,7 +9,6 @@
     opacity: 1;
     height: 100vh;
 }
-
 .left-menu {
     height: 100vh;
     color: white;
@@ -20,11 +19,15 @@
     z-index: 200;
     background-color: #483e72;
 }
-
+.row.soc>.col-3>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .soc-title {
     font-size: 18px;
 }
-
 .left-menu .soc a {
     display: block;
     width: 45px;

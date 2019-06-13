@@ -9,34 +9,24 @@
 
 .link:hover {
     color: #483e72;
+    text-decoration: none;
     transition: .3s ease;
 }
 
 .title-list {
     font-size: 18px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #2c2e30;
 }
 .logo-wrap{
     margin-top: -15px;
 }
-@media screen and (min-width: 576px) {
-    .logo-wrap, .company, .email-wrap {
-        width: 50% !important;
-    }
-    .email-ico {
-        width: 70px !important;
-    }
-    .address-wrap{
-        width: 100%!important;
-    }
-
+.email-ico {
+    width: 45px;
+    margin-right: .3rem;
+    padding-top: .3rem;
 }
-@media screen and (min-width: 360px) and (max-width: 576px) {
+@media screen and (min-width: 360px) and (max-width: 575px) {
 .logo-contact{
     padding-left: 15%!important;
 }

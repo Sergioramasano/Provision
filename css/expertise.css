@@ -8,8 +8,6 @@
 }
 .expertise-wrapper .container-left h1 {
   font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.25;
   letter-spacing: normal;
   color: #2c2e30;
@@ -17,10 +15,7 @@
 .expertise-wrapper .container-left p {
   font-size: 18px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.58;
-  letter-spacing: normal;
   color: #2c2e30;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -41,9 +36,6 @@
     font-size: 15px;
     border: 2px solid #6bb725;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
@@ -53,14 +45,12 @@
     font-size: 16px;
   }
   .expertise-wrapper .container-left h1 {
-    /*font-size: 45px;*/
     text-align: center;
   }
 }
 @media screen and (max-width: 425px) {
   .expertise-wrapper .container-left a {
     width: 80%;
-    text-align: center;
   }
 }
 @media screen and (min-width: 425px) and (max-width:576px)  {
@@ -78,7 +68,6 @@
 }
 .expertise-wrapper .container-right {
   background: url("../images/group-6@2x.png") no-repeat top center;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 @media screen and (max-width: 1200px){
